@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136264A31BABA2C300211C96 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 136264A21BABA2C300211C96 /* Test.m */; };
 		136B0BA81BAACE3C000695C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 136B0BA71BAACE3C000695C9 /* main.m */; };
 		136B0BAB1BAACE3C000695C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 136B0BAA1BAACE3C000695C9 /* AppDelegate.m */; };
 		136B0BAE1BAACE3C000695C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136B0BAD1BAACE3C000695C9 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		136264A11BABA2C300211C96 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		136264A21BABA2C300211C96 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		136B0BA21BAACE3C000695C9 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136B0BA61BAACE3C000695C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		136B0BA71BAACE3C000695C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				136B0BB21BAACE3C000695C9 /* Images.xcassets */,
 				136B0BB41BAACE3C000695C9 /* LaunchScreen.xib */,
 				136B0BA51BAACE3C000695C9 /* Supporting Files */,
+				136264A11BABA2C300211C96 /* Test.h */,
+				136264A21BABA2C300211C96 /* Test.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				136B0BAE1BAACE3C000695C9 /* ViewController.m in Sources */,
+				136264A31BABA2C300211C96 /* Test.m in Sources */,
 				136B0BAB1BAACE3C000695C9 /* AppDelegate.m in Sources */,
 				136B0BA81BAACE3C000695C9 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				136B0BC71BAACE3C000695C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		136B0BC81BAACE3C000695C9 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				136B0BCA1BAACE3C000695C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
