@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 //第一次修改
+//你妹修改
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
